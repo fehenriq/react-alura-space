@@ -1,11 +1,11 @@
 import React from "react";
 import styles from './PaginaInicial.module.scss';
-import Cabecalho from "../../components/Cabecalho";
-import Menu from "../../components/Menu";
-import Banner from "../../components/Banner";
-import Rodape from "../../components/Rodape";
-import Galeria from "../../components/Galeria";
-import Populares from "../../components/Populares";
+import Cabecalho from "components/Cabecalho";
+import Menu from "components/Menu";
+import Banner from "components/Banner";
+import Rodape from "components/Rodape";
+import Galeria from "components/Galeria";
+import Populares from "components/Populares";
 
 export default function PaginaInicial() {
   return (
