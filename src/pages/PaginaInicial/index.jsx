@@ -1,8 +1,19 @@
-import React from "react"
-import Cabecalho from "../../components/Cabecalho"
+import React from "react";
+import Cabecalho from "../../components/Cabecalho";
+import Menu from "../../components/Menu";
+import styles from './PaginaInicial.module.scss';
+import Banner from "../../components/Banner";
 
 export default function PaginaInicial() {
   return (
-    <Cabecalho />
+    <>
+      <Cabecalho />
+      <main>
+        <section className={styles.principal}>
+          <Menu />
+          <Banner />
+        </section>
+      </main>
+    </>
   )
 }
