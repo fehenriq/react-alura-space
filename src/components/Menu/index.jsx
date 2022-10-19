@@ -20,7 +20,7 @@ export default function Menu() {
         </li>
         <li className={styles.menu__item}>
           <img src={maisVistas} alt="icone mais vistas" />
-          <a href="">Mias vistas</a>
+          <a href="">Mais vistas</a>
         </li>
         <li className={styles.menu__item}>
           <img src={novas} alt="icone novas" />
